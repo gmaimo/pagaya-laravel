@@ -2,8 +2,7 @@
 <footer class="text-center text-lg-start bg-light text-muted mt-5 shadow ">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <div class="container d-flex justify-content-evenly ms-2  ">
-            <div class="container container-footer">
+        <div class="container d-flex justify-content-center">
                 <a href="" class="me-4 text-reset">
                     <img src="/img/facebook.png" alt="" width="50px">
                 </a>
@@ -16,13 +15,10 @@
                 <a href="" class="me-4 text-reset">
                     <img src="/img/linkedin.png" alt="" width="50px">
                 </a>
-            </div>
-            <div class="container d-flex justify-content-end">
                 <div class="work">
-                    <a href="{{ route('revisor.become') }}" class="text-black work">{{__('Trabaja con nosotros')}}</a>
+                    <a href="{{ route('revisor.become') }}" class="btn boton-nav text-black fw-bold px-3 ms-5">{{__('Trabaja con nosotros')}}</a>
                 </div>
-                
-            </div>
+
         </div>
     </section>
 

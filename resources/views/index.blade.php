@@ -6,9 +6,8 @@
         <div class="container ">
             <div class="row">
                 <div class="col-12 mt-5 pt-5">
-                    <h1 class="text-center fw-bold mb-2 pb-2">{{__('Bienvenido a Rapido.es')}}</h1>
-                    <h2 class="text-center mb-5 pb-5">{{__('¡La página de compra-venta de moda!')}}</h2>
-                    <h5 class="text-center">{{__('Navega por nuestras categorías favoritas')}}</h5>
+                    <h1 class="text-center fw-bold mb-2 pb-2 display-2">{{__('Bienvenido a Rapido.es')}}</h1>
+                    <h4 class="text-center mb-2">{{__('¡La página de compra-venta de moda!')}}</h4>
                 </div>
             </div>
         </div>
