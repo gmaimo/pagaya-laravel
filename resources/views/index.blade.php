@@ -6,14 +6,14 @@
         <div class="container ">
             <div class="row">
                 <div class="col-12 mt-5 pt-5">
-                    <h1 class="text-center fw-bold mb-2 pb-2 display-2">{{__('Bienvenido a Rapido.es')}}</h1>
+                    <h1 class="text-center fw-bold mb-2 pb-2 display-2">{{__('Bienvenido a Pagaya')}}</h1>
                     <h4 class="text-center mb-2">{{__('¡La página de compra-venta de moda!')}}</h4>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid">
-            <div class="row m-5">
+        <div class="container">
+            <div class="row">
                 <div class="my-5 py-5 iconos grid" >   {{-- col-2 col-md-6 col-lg-12 --}}
                     <figure class="text-center category-hover">
                         <a href="{{url ('/category/coches/ads')}}" class="text-decoration-none text-black fw-bold">
